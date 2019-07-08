@@ -39,7 +39,7 @@ public class ToolShopUtility {
      *            that is converted to LocalDate
      * @return LocalDate
      */
-    public static String convertDateFormatToAnothorFormat(String date) {
+    public static String convertADateFormatToAnothorDateFormat(String date) {
 
         DateTimeFormatter f = new DateTimeFormatterBuilder().appendPattern("yyyy-MM-dd").toFormatter();
 

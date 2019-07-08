@@ -359,9 +359,9 @@ public class RentalAgreement {
         System.out.println("Rental days: " + this.getRentalDays());
 
         System.out.println("Check out date: "
-                + ToolShopUtility.convertDateFormatToAnothorFormat(this.getCheckOutDate().toString()));
+                + ToolShopUtility.convertADateFormatToAnothorDateFormat(this.getCheckOutDate().toString()));
         System.out
-                .println("Due date: " + ToolShopUtility.convertDateFormatToAnothorFormat(this.getDueDate().toString()));
+                .println("Due date: " + ToolShopUtility.convertADateFormatToAnothorDateFormat(this.getDueDate().toString()));
         System.out.println("Daily rental charge: " + this.getDailyRentalChage());
         System.out.println("Charge days: " + this.getChargeDays());
 
