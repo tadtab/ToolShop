@@ -88,7 +88,6 @@ public class RentalToolTest {
         // assert final charge
         assertEquals("$3.58", rentalAgreement.getFinalCharge());
         
-        rentalAgreement.printOutThisPropertiesToConsole();
     }
 
     /**
